@@ -5,6 +5,7 @@ import java.sql.Statement;
 public class JDBCDemo {
     public static void main(String[] args)throws Exception {
         System.out.println("New Feature added from RMS123");
+        System.out.println("I am so grateful to the universe");
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url="jdbc:mysql://localhost:3306/mydb";
         String uname="root";
