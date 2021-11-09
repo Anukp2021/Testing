@@ -4,6 +4,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 public class JDBCDemo {
     public static void main(String[] args)throws Exception {
+        System.out.println("New Feature added from RMS123");
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url="jdbc:mysql://localhost:3306/mydb";
         String uname="root";
